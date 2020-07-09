@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="edt_Email">E-Mail</string>
+    <string name="edt_Password">Password</string>
+    <string name="btn_Login">Log In</string>
+    <string name="btn_Register">Register</string>
+    <string name="txt_email">E-Mail</string>
+    <string name="txt_password">Password</string>
+    <string name="hint_username">User Name</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="hint_Password">Password</string>
+    <string name="hint_ConfirmPassword">Confirm Password</string>
+    <string name="btn_SignUp">Sign Up</string>
+    <string name="txt_UserNameRegister">User Name</string>
+    <string name="txt_emailRegister">E-Mail</string>
+    <string name="txt_PasswordRegister">Password</string>
+    <string name="txt_ConfirmPasswordRegister">Confirm Password</string>
+    <string name="img_Desc">Test</string>
+
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="txt_Welcome">Welcome</string>
+    <string name="img_logo">logo</string>
+    <string name="txt_Logintoapp">Log in to App.</string>
+    <string name="txt_CreatAcc">Create your account</string>
+    <string name="txt_CreateAcc">Create your Account</string>
+    <string name="btn_email_password">Email and Password</string>
+    <string name="btn_SigninwithFacebook">Sign in with Facebook</string>
+
+    <string name="facebook_app_id">283701816067864</string>
+    <string name="fb_login_protocol_scheme">fb283701816067864</string>
+    <string name="txt_Facebook_Name">Name</string>
+    <string name="txt_Facebook_Email">E-Mail</string>
+    <string name="btn_SignOut">Sign Out</string>
+    <string name="img_Facebook">Facebook Image</string>
+
+</resources>
