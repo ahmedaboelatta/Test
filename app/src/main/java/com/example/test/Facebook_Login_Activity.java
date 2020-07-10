@@ -2,6 +2,7 @@ package com.example.test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +41,7 @@ public class Facebook_Login_Activity extends AppCompatActivity {
                 finish();
             }
         });
+
 
         if (mUser != null){
             String name = mUser.getDisplayName();

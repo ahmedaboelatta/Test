@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".User_Login_Activity"></activity>
-        <activity android:name=".Signin_with_emailOrfacebookActivity"></activity>
+        <activity android:name=".DiceActivity"></activity>
+        <activity android:name=".User_Login_Activity" />
+        <activity android:name=".Signin_with_emailOrfacebookActivity" />
         <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -2,6 +2,7 @@ package com.example.test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +16,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class User_Login_Activity extends AppCompatActivity {
 
     TextView myEmail;
-    Button sign_out_Button;
+    Button sign_out_Button, play_Dice;
 
     FirebaseAuth mAuth;
     @Override
@@ -37,6 +38,15 @@ public class User_Login_Activity extends AppCompatActivity {
                 finish();
             }
         });
+        play_Dice = findViewById(R.id.btn_playDice);
+        play_Dice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(User_Login_Activity.this,DiceActivity.class);
+                startActivity(intent);
+            }
+        });
+
         if (mUser != null){
             String email = mUser.getEmail();
 

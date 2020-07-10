@@ -36,4 +36,8 @@
     <string name="btn_SignOut">Sign Out</string>
     <string name="img_Facebook">Facebook Image</string>
 
+    <string name="btn_Roll">Roll</string>
+    <string name="img_Dice">Dice Image</string>
+    <string name="btn_PlayDice">Play Dice</string>
+
 </resources>
