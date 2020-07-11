@@ -35,14 +35,8 @@ public class User_Login_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 mAuth.signOut();
                 LoginManager.getInstance().logOut();
+                Intent intent = new Intent(User_Login_Activity.this, LoginActivity.class);
                 finish();
-            }
-        });
-        play_Dice = findViewById(R.id.btn_playDice);
-        play_Dice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(User_Login_Activity.this,DiceActivity.class);
                 startActivity(intent);
             }
         });

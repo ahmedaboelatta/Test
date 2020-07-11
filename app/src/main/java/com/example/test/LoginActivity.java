@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                     Log.d("Test","Problem sign in: " + task.getException());
                     showErrorDialog("There was Problem Signing in");
                 }else {
-                    Intent intent = new Intent(LoginActivity.this, User_Login_Activity.class);
+                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                     finish();
                     startActivity(intent);
                 }
